@@ -18,7 +18,7 @@ def test_push():
     queue.push(10)
     queue.push(11)
     assert queue.size == 2
-    assert queue.is_empty() == False
+    assert queue.is_empty() is False
 
 
 if __name__ == '__main__':
